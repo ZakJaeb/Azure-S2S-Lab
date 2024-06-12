@@ -3,7 +3,7 @@
 <!-- ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo) -->
 
 <h2>Description</h2>
-In this project I configured an IPSec connection from my Azure tenant to my homelab environment. After successful configuration I was able to RDP into an Azure VM using its private 10.0 IP. I then performed a ping request back to the machine in my home environment using its private 192.168 IP.
+In this project I configured an IPSec connection from my Azure tenant to my homelab environment. After successful configuration I was able to RDP into an Azure VM using its private 10.0 IP. I then performed a ping request back to the machine in my home environment using its private 192.168 IP. 
 
 Within Azure I deployed a Virtual Network with two subnets, one for the Gateway and another for the VM. I setup a Virtual Network Gateway with a Public IP to route traffic over the S2S tunnel. I configured a Local Network Gateway to represent my homelab network and setup the VPN connection with Shared key.
 
