@@ -20,6 +20,7 @@ This project was a great way to learn all about configuring simple networks in A
 - <b>Azure Virtual Networks</b> 
 - <b>Azure Virtual Machines</b>
 - <b>Azure Network Gateways</b>
+- <b>TP-Link Gigabit VPN Router</b>
 
 <h2>Environments Used </h2>
 
